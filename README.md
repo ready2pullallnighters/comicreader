@@ -2,7 +2,7 @@
 
 CPSC 411 iOS Mobile Application Development, Final Project, Milestone 1 (UIKit user interface)
 
-The Xcode project lives in `comicreader/` (target and module name `comicreader`). The app shows up on the home screen as **TinyView**.
+The Xcode project is `comicreader.xcodeproj` at the root of the repo, with the source files in `comicreader/` (target and module name `comicreader`). The app shows up on the home screen as **TinyView**.
 
 ## Application name
 
@@ -80,7 +80,7 @@ The screens are based on our Figma file: [TinyView in Figma](https://www.figma.c
 
 ## Running the app
 
-1. Open `comicreader/comicreader.xcodeproj` in Xcode on a Mac.
+1. Open `comicreader.xcodeproj` in Xcode on a Mac.
 2. Pick an iPhone simulator in the toolbar.
 3. Press Run (Command R).
 
@@ -95,21 +95,22 @@ The screens are based on our Figma file: [TinyView in Figma](https://www.figma.c
 ## Project structure
 
 ```
+comicreader.xcodeproj               Xcode project
 comicreader/
-  comicreader.xcodeproj               Xcode project
-  comicreader/
-    app_delegate.swift                app entry point
-    scene_delegate.swift              creates the window and the navigation controller
-    app_theme.swift                   shared colors, fonts and small view helpers
-    book_item.swift                   book model and reading status
-    book_store.swift                  hard coded sample books
-    book_cell.swift                   custom UITableViewCell for the library
-    home_view_controller.swift        screen 1, Home
-    library_view_controller.swift     screen 2, Library list
-    reader_view_controller.swift      screen 3, Reader detail
-    edit_book_view_controller.swift   screen 4, Add / Edit Book
-    Assets.xcassets                   book covers and page art from the Figma design
+  app_delegate.swift                app entry point
+  scene_delegate.swift              creates the window and the navigation controller
+  app_navigation_controller.swift   shared navigation bar look
+  app_theme.swift                   shared colors, fonts and small view helpers
+  book_item.swift                   book model and reading status
+  book_store.swift                  hard coded sample books
+  book_cell.swift                   custom UITableViewCell for the library
+  home_view_controller.swift        screen 1, Home
+  library_view_controller.swift     screen 2, Library list
+  reader_view_controller.swift      screen 3, Reader detail
+  edit_book_view_controller.swift   screen 4, Add / Edit Book
+  Assets.xcassets                   book covers and page art from the Figma design
+  Info.plist                        scene setup (no storyboard)
 docs/
-  design/                             Figma frame exports
-  screenshots/                        Simulator screenshots for the submission
+  design/                           Figma frame exports
+  screenshots/                      Simulator screenshots for the submission
 ```

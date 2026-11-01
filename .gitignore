@@ -1,2 +1,10 @@
-xcuserdata
-.DS_STORE
+# macOS folder metadata
+.DS_Store
+
+# per user Xcode state (window layout, breakpoints, scheme order)
+xcuserdata/
+*.xcuserstate
+
+# build output
+build/
+DerivedData/
