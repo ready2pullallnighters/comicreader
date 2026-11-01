@@ -51,19 +51,9 @@ Home, Library and Reader are pushed on a `UINavigationController`, so the back b
 
 ## Screenshots
 
-Simulator screenshots go in `docs/screenshots/`. Take them in Xcode with the iOS Simulator running (File, Save Screen, or Command S) and save them with these names so the table below picks them up.
-
 | Home | Library | Reader | Edit Book |
 | --- | --- | --- | --- |
 | ![Home](docs/screenshots/home.png) | ![Library](docs/screenshots/library.png) | ![Reader](docs/screenshots/reader.png) | ![Edit Book](docs/screenshots/edit_book.png) |
-
-## Design
-
-The screens are based on our Figma file: [TinyView in Figma](https://www.figma.com/design/HBVD3rWwY7ocwVZDOa8mgy/Tiny-View). Exports of each Figma frame are kept in `docs/design/` for reference.
-
-| Home | Library | Reader | Edit Book |
-| --- | --- | --- | --- |
-| ![Home design](docs/design/home.png) | ![Library design](docs/design/library.png) | ![Reader design](docs/design/reader.png) | ![Edit Book design](docs/design/edit_book.png) |
 
 ## UIKit concepts used
 
